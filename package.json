@@ -2,7 +2,7 @@
   "name": "stackoverflow_backend",
   "version": "1.0.0",
   "description": "Backend for stackoverflow clone",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,9 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
     "morgan": "^1.10.0"
   }
 }
